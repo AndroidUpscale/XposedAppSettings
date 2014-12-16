@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">إعدادات التطبيقات</string>
+    <string name="app_mod_summary">لضبط الأعدادات العامة والأساسيات للتطبيق: إدارة إشعارات التنبيه؛ تخطي تحميل الموارد؛ الإعدادات الداخلية للتطبيق؛ ملء الشاشة؛ استخدام الذاكرة؛ التدوير؛ تعطيل أذونات؛ …</string>
+    <string name="app_loading">"يتم تحميل التطبيقات المثبتة على جهازك..
+يرجى الانتظار.."</string>
+    <string name="app_searchhint">"أسم التطبيق أو أسم الحزمة "</string>
+    <string name="app_about">" وحدة : "<a href="http://forum.xda-developers.com/showthread.php?t=1574401">Xposed</a>"
+بواسطة: "<a href="http://forum.xda-developers.com/member.php?u=4419114">rovo89</a>"  و  "<a href="http://forum.xda-developers.com/member.php?u=4322181">Tungstwenty</a>". 
+إذا كنت بحاجة لدعم أو لديك مقترح تفضل بزيارة هذا الرابط : "<a href="http://forum.xda-developers.com/showthread.php?t=2437377">XDA</a>"   
+ تمت ترجمة هذه الوحدة النمطية للعربية بواسطة : أحمد الحربي
+أندرويد الراقي 
+Twitter: "<a href="https://twitter.com/AndroidUpscale">@AndroidUpscale</a>" "</string>
+    <string name="app_description">"هذه الوحدة تسمح لك بتغيير بعض التكوينات العامة وتغيير الإعدادات الأفتراضية لكل تطبيق،
+دون الحاجة إلى تحرير ملف APKs مثل:
+-إدارة التنبيهات والأشعارات. 
+-تغيير حجم الخط. 
+-تغيير حجم الشاشة وإستخدامها للموارد. 
+-تغيير اللغة الإفتراضية للتطبيق. 
+-التغيير لوضع ملء الشاشة. 
+-إخفاء شريط العنوان للتطبيق  (أسم التطبيق).
+-الحفاظ على الشاشة حينما يكون التطبيق مرئيا. ً
+-عرض التطبيق على قفل الشاشة. 
+-الحفاظ على الذاكرة المستخدمة من التطبيق. 
+-تعطيل إدخال لوحة المفاتيح في وضع ملء الشاشة. 
+-تدوير إجباري (عمودي/أفقي/تلقائي).
+-إجبار الأخطارات وتغيير إعداداتها (الصوتية أو المرئية).
+-تعطيل الأخطارات الكبيرة (نوافذ التنبيهات).
+-إجبار أو منع التنبيهات الجارية. 
+-أولوية الإخطارات والتنبيهات. 
+-إجبارأو استبعاد التطبيق من الأحداث القائمة .
+-كتم الصوت (لمعظم التطبيقات) بما في ذلك صوت الإخطارات. 
+-إستخدام إجباري (لشريط التنقل) باستخدام زر القائمة. 
+-تعطيل الأذونات. "</string>
+    <string name="app_version">النسخة : %s</string>
+    <string name="app_translation">الترجمة : %s</string>
+    <string name="app_notactive_warning">ملاحظة: على الرغم من أنك تستطيع استخدام ألتطبيق، إلا انك لا تستطيع تنفيذ ما قمت به من إعدادات على التطبيقات مالم تثبت إطار إكسبوسيد وتمكين هذه الوحدة من خلاله !</string>
+    <string name="menu_refresh">تحديث</string>
+    <string name="menu_recents">التطبيقات الأخيرة</string>
+    <string name="menu_export">تصدير</string>
+    <string name="menu_import">استيراد</string>
+    <string name="menu_about">حول</string>
+    <string name="imp_exp_file_doesnt_exist">الملف غير موجود : %s</string>
+    <string name="imp_exp_confirm">سيتم استبدال كافة الإعدادات مع التي سيتم استيرادها ؟</string>
+    <string name="imp_exp_exported">تصدير الأعدادات إلى ملف : %s</string>
+    <string name="imp_exp_export_error">فشل التصدير : %s</string>
+    <string name="imp_exp_import_error">فشل الاستيراد : %s</string>
+    <string name="imp_exp_invalid_import_file">الملف المستورد غير صالح أو فارغ : %s</string>
+    <string name="imp_exp_imported">تم الاستيراد بنجاح للإعدادات</string>
+    <string name="menu_save">حفظ</string>
+    <string name="menu_launch">"فتح التطبيق "</string>
+    <string name="menu_settings">معلومات التطبيق</string>
+    <string name="menu_playstore">التطبيق في المتجر</string>
+    <string name="settings_title">معلومات التطبيق</string>
+    <string name="settings_dpi">"dpi "</string>
+    <string name="settings_fontscale">حجم الخط</string>
+    <string name="settings_listres">قائمة الموارد</string>
+    <string name="settings_screen">قياس الشاشة</string>
+    <string name="settings_xlargeres">"دقة الموارد "</string>
+    <string name="settings_resonwidgets">تطبيق ضبط الموارد على مصغرات التطبيق</string>
+    <string name="settings_locale">اللغة</string>
+    <string name="settings_fullscreen">ملء الشاشة</string>
+    <string name="settings_notitle">"بدون أسم التطبيق "</string>
+    <string name="settings_screenon">تمكين حفظ الشاشة</string>
+    <string name="settings_showwhenlocked">عرض على القفل</string>
+    <string name="settings_resident">"حفظ إستخدام الذاكرة "</string>
+    <string name="settings_nofullscreenime">"بدون شاشة كاملة "</string>
+    <string name="settings_orientation">تدوير الشاشة</string>
+    <string name="settings_insistentnotif">تمكين ضبط الإخطارات</string>
+    <string name="settings_nobignotif">بدون إخطارات كبيرة</string>
+    <string name="settings_ongoingnotif">الإخطارات الجارية</string>
+    <string name="settings_notifpriority">أولوية الإخطارات</string>
+    <string name="settings_mute">كتم الصوت</string>
+    <string name="settings_legacy_menu">زر القائمة القديمة</string>
+    <string name="settings_permissions">الأذونات</string>
+    <string name="settings_recents_mode">عرض الأحدث</string>
+    <string name="settings_default">(الضبط الافتراضي)</string>
+    <string name="settings_force">"فرض إجباري "</string>
+    <string name="settings_prevent">منع إجباري</string>
+    <string name="settings_immersive">غامرة</string>
+    <string name="settings_ori_normal">تدوير عادي</string>
+    <string name="settings_ori_portrait">دائما عمودي</string>
+    <string name="settings_ori_landscape">دائما أفقي</string>
+    <string name="settings_ori_forceauto">تدوير تلقائي إجباري</string>
+    <string name="settings_ori_portrait_sensor">دائما عمودي (حسب المستشعر)</string>
+    <string name="settings_ori_landscape_sensor">دائما أفقي (حسب المستشعر)</string>
+    <string name="settings_ori_portrait_reverse">دائما عمودي (معكوس)</string>
+    <string name="settings_ori_landscape_reverse">دائما أفقي (معكوس)</string>
+    <string name="settings_ori_forceauto_4way">تدوير تلقائي إجباري (لكل الأتجاهات)</string>
+    <string name="settings_ori_portrait_user">دائما عمودي (ضبط المستخدم)</string>
+    <string name="settings_ori_landscape_user">دائما أفقي (ضبط المستخدم)</string>
+    <string name="settings_ori_user_4way">تدوير لكل الأتجاهات (ضبط المستخدم)</string>
+    <string name="settings_npri_max">"الحد الأقصى "</string>
+    <string name="settings_npri_high">"مرتفعة "</string>
+    <string name="settings_npri_normal">"عادية "</string>
+    <string name="settings_npri_low">"منخفضة "</string>
+    <string name="settings_npri_min">"الحد الأدنى "</string>
+    <string name="recents_title">التطبيقات الأخيرة</string>
+    <string name="res_title">الموارد</string>
+    <string name="res_noentries">لم يتم العثور على الموارد</string>
+    <string name="res_failedtoload">فشل تحميل محتويات APK</string>
+    <string name="perms_title">الأذونات</string>
+    <string name="perms_revoke">إلغاء الأذونات</string>
+    <string name="perms_shared_warning">تحذير : حزمة مشتركة !</string>
+    <string name="perms_searchhint">الاسم أو الوصف</string>
+    <string name="perms_nodescription">(لا يوجد وصف متوفر)</string>
+    <string name="perms_filter_title">"حدد أذن معين لعرض التطبيقات التي تستخدمه "</string>
+    <string name="settings_unsaved_title">تحذير</string>
+    <string name="settings_unsaved_detail">لم تقم بحفظ التكوين. هل حقا تريد العودة و تجاهل التغييرات ؟</string>
+    <string name="settings_apply_title">تطبيق وتنفيذ الإعدادات</string>
+    <string name="settings_apply_detail">يجب إغلاق التطبيق حتى تصبح التغييرات الجديدة على الإعدادات نافذة المفعول؟</string>
+    <string name="filter_title">تصفية</string>
+    <string name="filter_all">الكل</string>
+    <string name="filter_overridden">"تم التغيير "</string>
+    <string name="filter_unchanged">"لم يتم التغيير "</string>
+    <string name="filter_type">النوع</string>
+    <string name="filter_user">"تطبيقات المستخدم "</string>
+    <string name="filter_system">"تطبيقات النظام "</string>
+    <string name="filter_state">الحالة</string>
+    <string name="filter_enabled">"ممكنة "</string>
+    <string name="filter_disabled">"معطلة "</string>
+    <string name="filter_settingsactive">الإعدادات النشطة</string>
+    <string name="filter_active">"النشطة "</string>
+    <string name="filter_notactive">"الغير نشطة "</string>
+    <string name="filter_resources">تحميل الموارد</string>
+    <string name="filter_cancel">إلغاء</string>
+    <string name="filter_clear">مسح</string>
+    <string name="filter_apply">تطبيق</string>
+    <string name="translator">"للعربية 
+أحمد الحربي 
+\"أندرويد الراقي\"
+@AndroidUpscale
+
+"</string>
+</resources>
